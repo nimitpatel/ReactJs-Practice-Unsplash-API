@@ -8,6 +8,10 @@ class App extends React.Component {
     images: []
   };
 
+  componentDidMount() {
+    this.onSearchSubmit('laptops')
+  }
+
   onSearchSubmit = async term => {
     const response = await unsplash.get("/search/photos", {
       params: {

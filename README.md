@@ -1,3 +1,8 @@
+# How to Run
+### Clone [repo](https://github.com/nimitpatel/ReactJs-Practice-Unsplash-API.git) 
+### `npm install`
+### Add your [unsplash cleint id](https://unsplash.com/developers) @ src/api/unsplash.js
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
